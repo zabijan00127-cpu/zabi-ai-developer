@@ -3,104 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <title>Zabi AI Developer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
 body{
-  background: linear-gradient(180deg, #020617, #0f172a);
+  margin:0;
+  background:#020617;
   color:white;
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:16px;
+  font-family:system-ui, sans-serif;
 }
 
 .container{
-  width:100%;
-  max-width:500px;
-  text-align:center;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:20px;
 }
 
 h1{
-  font-size:32px;
+  font-size:38px;
   color:#38bdf8;
-  margin-bottom:10px;
 }
 
-.tagline{
-  font-size:18px;
-  color:#cbd5f5;
-  margin-bottom:25px;
-}
-
-.card{
-  background:#020617;
-  border:1px solid #1e293b;
-  border-radius:18px;
-  padding:22px;
-  box-shadow:0 0 35px rgba(56,189,248,0.25);
+p{
+  font-size:20px;
+  opacity:0.9;
 }
 
 input{
-  width:100%;
-  padding:18px;
-  font-size:18px;
+  font-size:20px;
+  padding:16px;
   border-radius:14px;
-  border:1px solid #334155;
-  background:#020617;
-  color:white;
-  outline:none;
-  margin-bottom:16px;
+  border:none;
+  margin:20px 0;
 }
 
 button{
-  width:100%;
-  padding:18px;
-  font-size:18px;
-  font-weight:700;
-  border:none;
+  font-size:20px;
+  padding:16px;
   border-radius:14px;
+  border:none;
   background:#38bdf8;
-  color:#020617;
-}
-
-button:active{
-  transform:scale(0.98);
-}
-
-.footer{
-  margin-top:18px;
-  font-size:14px;
-  color:#94a3b8;
+  font-weight:bold;
 }
 </style>
 </head>
 
 <body>
-
 <div class="container">
-  <h1>🤖 Zabi AI Developer</h1>
-  <p class="tagline">Your 2025 AI vibes are here 🚀</p>
+  <h1>Zabi AI Developer</h1>
+  <p>Your 2025 AI vibes are here 🚀</p>
 
-  <div class="card">
-    <input type="text" placeholder="Ask Zabi AI anything..." />
-    <button onclick="alert('AI system coming soon 🔥')">
-      Ask Zabi AI
-    </button>
-  </div>
-
-  <div class="footer">
-    © 2025 Zabi AI Developer
-  </div>
+  <input placeholder="Ask Zabi AI..." />
+  <button>Ask AI</button>
 </div>
-
 </body>
 </html>
