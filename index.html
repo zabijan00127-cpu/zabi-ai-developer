@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Zabi AI Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Favicon -->
-  <link rel="icon" href="/assets/favicon-B_SY1GJM.ico">
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
 
-  <!-- CSS -->
-  <script type="module" crossorigin src="/assets/index-D2eJTV_H.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-lr1rNHZp.css">
+    body{
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color:#e5e7eb;
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    .card{
+      background:#020617;
+      border:1px solid #1e293b;
+      border-radius:16px;
+      padding:25px;
+      width:100%;
+      max-width:420px;
+      box-shadow:0 0 30px rgba(56,189,248,0.15);
+    }
+
+    h1{
+      color:#38bdf8;
+      text-align:center;
+      margin-bottom:8px;
+    }
+
+    p{
+      text-align:center;
+      color:#94a3b8;
+      font-size:14px;
+      margin-bottom:20px;
+    }
+
+    input{
+      width:100%;
+      padding:14px;
+      border-radius:10px;
+      border:none;
+      outline:none;
+      font-size:15px;
+      background:#020617;
+      color:white;
+      border:1px solid #334155;
+      margin-bottom:12px;
+    }
+
+    button{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:10px;
+      background:#38bdf8;
+      color:#020617;
+      font-weight:bold;
+      font-size:15px;
+      cursor:pointer;
+    }
+
+    button:hover{
+      background:#0ea5e9;
+    }
+
+    footer{
+      text-align:center;
+      font-size:12px;
+      color:#64748b;
+      margin-top:16px;
+    }
+  </style>
 </head>
+
 <body>
 
-  <div class="background">
-    <div class="card">
+  <div class="card">
+    <h1>🤖 Zabi AI Developer</h1>
+    <p>Your 2025 AI vibes are here</p>
 
-      <!-- HEADER -->
-      <div class="header">
-        💗 <span>Zabi AI Developer</span>
-      </div>
+    <input type="text" placeholder="Ask Zabi AI something..." />
+    <button onclick="alert('AI feature coming soon 🚀')">Ask AI</button>
 
-      <div class="subtext">
-        Your 2025 Zabi AI vibes are here →
-      </div>
-
-      <!-- MAIN TITLE -->
-      <h1 class="main-title">Got an idea, zabi?</h1>
-
-      <!-- INPUT -->
-      <input
-        class="input-box"
-        placeholder="Ask Zabi AI to create a landing page..."
-      />
-
-      <!-- CATEGORIES -->
-      <div class="categories">
-        <span class="active">Recent Creations</span>
-        <span>My AI Projects</span>
-        <span>AI Templates</span>
-      </div>
-
-      <!-- CONTENT -->
-      <div id="content" class="content-text">
-        🔥 Your recent AI creations will appear here.
-      </div>
-
-    </div>
+    <footer>
+      © 2025 Zabi AI Developer
+    </footer>
   </div>
-
-  <!-- JS (IMPORTANT) -->
 
 </body>
 </html>
